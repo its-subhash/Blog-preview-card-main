@@ -34,6 +34,10 @@
     border: 1px solid;
     border-radius: 1rem;
     box-shadow: 10px 10px;
+    transition: box-shadow 0.3s ease;
+}
+.blog-card:hover{
+    box-shadow:  20px 15px 14px;
 }
 .wrapper{
     display: flex;
